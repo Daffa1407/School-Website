@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    box-shadow: 0 8px 10px rgb(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: rgb(13, 166, 255);
+}
+
+.navbar a.active {
+    color: rgb(13, 166, 255);
+}
+
+.navbar a.active::after {
+    width: 100%;
+}
+
+.konten {
+    padding-top: 170px;
+    position: center;
+}
+
+.konten h1 {
+    padding-left: 15px;
+    position: relative;
+}
+
+.konten img {
+    width: 10%;
+}
+
+.konten p {
+    color: dimgray;
+    font-weight: 100;
+}
